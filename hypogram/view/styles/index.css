@@ -3,6 +3,87 @@
 @import 'footer.css';
 
 main{
+    display: flex;
     flex-grow: 1;
+    background-color: #DEE2E6;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: column;
 }
+
+main > h1{
+    width: 140rem;
+    font-size: 4.8rem;
+}
+
+main > div{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+main img{
+    width: 70rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+    height: 50rem;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 3.5rem;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    border-bottom: 1px solid #FFF; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section div{
+    display: flex;
+    align-self: center;
+    gap: .5rem;
+}
+
+section h1{
+    font-size: 4.8rem;
+}
+
+section p{
+    font-size: 1.8rem;
+}
+
+section div button{
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    color: #000;
+    border: 1px solid #000;
+    align-self: center;
+    background-color: #FFF;
+}
+
+#inscreva{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+#inscreva button{
+    border: none;
+}
+
+#inscreva img{
+    width: 2rem;
+}
+
+#inscreva:hover, button:hover, a:hover{
+    transform: scale(1.1);
+}
+
 

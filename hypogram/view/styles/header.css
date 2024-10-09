@@ -36,7 +36,7 @@ header img{
     width: 23rem;
 }
 
-button{
+header button{
     width: 10rem;
     height: 4rem;
     font-size: 1.6rem;
@@ -48,6 +48,6 @@ button{
 
 #botoes{
     display: flex;
-    gap: 10rem;
+    gap: 4rem;
     align-self: center;
 }
