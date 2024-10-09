@@ -1,0 +1,21 @@
+@import 'global.css';
+@import 'header.css';
+@import 'footer.css';
+
+main{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: var(--container);
+}
+
+a:nth-child(1){
+    font-weight: normal;
+}
+
+a:nth-child(2){
+    font-weight: bold;
+}
