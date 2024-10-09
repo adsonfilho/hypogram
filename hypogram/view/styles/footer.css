@@ -1,12 +1,12 @@
 footer{
     width: 100vw;
-    background-color: #222222;
+    background-color: var(--footer-bg);
 }
 
 .footer-container{
     display: flex;
     flex-direction: row;
-    width: 130rem;
+    width: var(--container);
     margin: auto;
     justify-content: space-between;
 }
@@ -20,7 +20,7 @@ footer{
 #copy{
     display: flex;
     flex-direction: column;
-    font-size: 1.8rem;
+    font-size: var(--medium);
     gap: 0;
     color: #FFF;
 }

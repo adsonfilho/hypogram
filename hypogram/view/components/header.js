@@ -5,12 +5,15 @@ export function createHeader(){
     `
     <div class="header-container">
         <img>
-            <nav>
-                <a href="">Inicio</a>
-                <a href="">Sobre</a>
-                <a href="">Aprenda Scrum</a>
-            </nav>
-        <button>Entrar</button>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Sobre</a>
+            <a href="">Aprenda Scrum</a>
+        </nav>
+        <div id="botoes">
+            <button>Certificado</button>
+            <button>Entrar</button>
+        </div>
     </div>
     `;
 

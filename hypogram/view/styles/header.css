@@ -1,19 +1,19 @@
 header{
     width: 100vw;
     height: 7.2rem;
-    background-color: #3c096c;
-    border-bottom: 1px solid #3c096c; 
+    background-color: var(--header-bg);
+    border-bottom: 1px solid var(--header-bg); 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .header-container{
     display: flex;
     flex-direction: row;
-    width: 130rem;
+    width: var(--container);
     height: 100%;
     margin: auto;
     justify-content: space-between;
-    font-size: 1.6rem;
+    font-size: var(--normal);
 }
 
 nav{
@@ -37,17 +37,12 @@ header img{
 }
 
 header button{
-    width: 10rem;
-    height: 4rem;
-    font-size: 1.6rem;
     color: #FFF;
-    border: 1px solid #FFF;
+    background-color: var(--header-bg);
+    border-color: #FFF;
     align-self: center;
-    background-color: #3c096c;
 }
 
-#botoes{
-    display: flex;
+header #botoes{
     gap: 4rem;
-    align-self: center;
 }
