@@ -3,7 +3,7 @@
 @import 'footer.css';
 
 main{
-    width: 100vw;
+    width: 100%;
     flex-grow: 1;
     background-color: var(--main-bg);
     display: flex;
@@ -68,7 +68,11 @@ main > h1{
 }
 
 #botao-inscreva button{
+    display: flex;
+    align-items: center;
     border: none;
+    justify-content: center;
+    width: 10.5rem;
 }
 
 #botao-inscreva:hover, #botao-inscreva img:hover, button:hover, a:hover{
