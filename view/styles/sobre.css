@@ -81,3 +81,29 @@ a:nth-child(1) {
 a:nth-child(2) {
     font-weight: bold;
 }
+
+@media (width < 1400px) {
+
+    .container{
+        width: 80%;
+        flex-wrap: wrap;
+        padding-bottom: 5rem;
+    }
+
+    #one, #two, #three{
+        gap: 5rem;
+    }
+
+    #two .text {
+        width: 50%;
+    }
+
+    #two img{
+        width: 50%;
+    }
+
+    #three img{
+        width: 50%;
+    }
+}
+

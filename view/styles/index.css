@@ -78,3 +78,18 @@ main > h1{
 #botao-inscreva:hover, #botao-inscreva img:hover, button:hover, a:hover{
     transform: scale(1.1);
 }
+
+@media (width < 1400px) {
+
+    .container{
+        width: 80%;
+        flex-wrap: wrap;
+        padding-bottom: 5rem;
+    }
+
+    main > h1{
+        text-align: center;
+        width: 100%;
+        padding-top: 5rem;
+    }
+}

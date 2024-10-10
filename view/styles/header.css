@@ -49,3 +49,11 @@ header #botoes{
     align-self: center;
     gap: 4rem;
 }
+
+@media (width < 1400px) {
+    .header-container{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+

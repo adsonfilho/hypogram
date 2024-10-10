@@ -24,3 +24,10 @@ footer{
     gap: 0;
     color: #FFF;
 }
+
+@media (width < 1400px) {
+    .footer-container{
+        width: 100%;
+        padding: 1rem;
+    }
+}
